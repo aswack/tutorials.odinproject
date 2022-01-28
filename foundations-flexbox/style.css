@@ -1,0 +1,88 @@
+* {
+  --dark-blue: #1f2937;
+  --light-blue: #3882f6;
+  --primary-text: #f9faf8;
+  --secondary-text: #e5e7eb;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--dark-blue);
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 70px;
+  font-size: 2.4rem;
+  border-bottom: 2px solid black;
+}
+
+.logo {
+  font-size: 2.4rem;
+  padding-left: 35px;
+}
+
+nav li {
+  display: inline;
+  padding-right: 35px;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: var(--secondary-text);
+}
+
+.hero {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 5%;
+  top: 40px;
+  padding: 100px;
+}
+
+.hero-text p {
+  font-size: 1.8rem;
+  color: var(--secondary-text);
+  max-width: 40ch;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+.hero img {
+  width: 525px;
+  height: 240px;
+}
+
+.hero-text {
+  width: 35%;
+}
+
+.hero-text button {
+  background-color: var(--light-blue);
+}
+
+header {
+  background-color: var(--dark-blue);
+  color: var(--primary-text);
+}
+
+header h1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+footer {
+  height: 70px;
+  background-color: var(--dark-blue);
+  border-top: 2px solid black;
+}
